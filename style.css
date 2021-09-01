@@ -1,0 +1,51 @@
+@keyframes blend {
+  from {
+    background-color: #cc0000;
+  }
+  to {
+    background-color: #3a92ec;
+  }
+}
+
+.circle {
+  width: 120px;
+  height: 120px;
+  border: 2px solid black;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-color: #11052c;
+  animation-name: blend;
+  animation-duration: 10s;
+  animation-iteration-count: 2;
+}
+
+body {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 3rem;
+  font-size: 1.125rem;
+  line-height: 1.5;
+  transition: all 725ms ease-in-out;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bolder;
+  margin-bottom: 1rem;
+}
+
+p {
+  margin-bottom: 1rem;
+  color: slate;
+}
+
+button {
+  cursor: pointer;
+  appearance: none;
+  border-radius: 4px;
+  font-size: 1.25rem;
+  padding: 0.75rem 1rem;
+  border: 1px solid navy;
+  background-color: dodgerblue;
+  color: white;
+}
